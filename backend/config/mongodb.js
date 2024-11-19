@@ -5,4 +5,4 @@ const connectDB = async()=>{
     mongoose.connection.on('connected',()=>console.log("Database Connected"))
     await mongoose.connect(`${process.env.MONGODB_URI}/drQuick`)
 }
-export default connectDB
+export default connectDB 
