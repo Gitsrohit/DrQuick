@@ -7,7 +7,7 @@ import adminRouter from './routes/adminRoute.js'
 
 // api config
 const app=express()
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 4100
 connectDB()
 connectCloudinary()
 
